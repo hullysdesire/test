@@ -11651,13 +11651,19 @@ th {
     transform: translateX(-300%);
   }
 
+
+.caroussel-container{
+   width:240px;
+   height:auto;
+   margin-left:50px;
+
 .carousel {width:100%;
    display:flex;
    gap:25px;
    animation: scroll 30s linear infinite;
 }
 
-.carousel_items{
+.caroussel_items{
    width:100%;
    margin: 50px 0px 0px 0px;
 }
