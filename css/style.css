@@ -11653,3 +11653,7 @@ th {
  
 }  
 
+/* package */
+.pricing_packages:hover{
+  background-color: lightgreen;
+}
