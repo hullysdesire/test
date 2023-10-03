@@ -11657,3 +11657,101 @@ th {
 .pricing_packages:hover{
   background-color: lightgreen;
 }
+
+.caroussel-container {
+  width: 240px;
+  height: auto;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  z-index: -1; */
+  margin-left: 50px;
+  /* overflow: hidden; */
+  
+}
+
+.carousel {
+width: 100%;
+display: flex; 
+gap: 25px;
+
+ animation: scroll 30s linear infinite; 
+}
+
+.caroussel_items {
+width: 100%;
+margin: 50px 0px 0px 0px;
+  /* flex: 0 0 100%;
+  height: 100vh; */
+}
+
+.caroussel_items .card_items{
+width:240px;
+}
+
+@keyframes scroll {
+  0%,20%{
+      transform: translateX( 0);
+  }
+  25%,45%{
+      transform: translateX(-100%);
+  }
+  50%,70%{
+    transform: translateX(-200%);
+  }
+  75%,95%{
+    transform: translateX(-300%);
+  }
+  100%{
+    transform: translateX(-400%);
+  }
+}
+.demande{
+display: flex;
+justify-content: space-between;
+}
+.une{
+width: 100%;
+text-align: center;
+margin: 20px;
+}
+.fonctionne{
+width: 90%;
+height: 50%;
+margin-left: 120px;
+box-shadow: 10px 10px 10px 10px;
+margin-bottom: 20px;
+
+}
+.deux{
+margin-left: 120px;
+margin-bottom: 20px;
+}
+.col-lg-8{
+width: 100%;
+display: flex;
+justify-content: space-around;
+gap: 10px;
+}
+.thicky{
+width: 50%;
+height: 50%;
+}
+.enfant-inner{
+width: 100%;
+height: 100%;
+padding: 70px;
+background-color: #fdc110;
+
+}
+.service-about{
+width: 100%;
+height: 100%;
+}
+.but-free{
+border: 1px solid green;
+border-radius: 50px;
+background-color: #027f53;
+margin-left: 50px;
+
+}
