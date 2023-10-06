@@ -11346,6 +11346,7 @@ input:focus-visible {
 
 .bdrs16 {
   border-radius: 16px;
+  margin-top: 25px;
 }
 
 .bdrs24 {
